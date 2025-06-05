@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/stylesheet.css">
-    <!-- <link rel="stylesheet" href="./css/gpt.css"> -->
+    <link rel="stylesheet" href="./css/gpt.css">
     <title>Kartik-Gupta | Portfolio</title>
 </head>
 
@@ -22,11 +22,11 @@
             </ul>
         </nav>
     </header>
+
     <section id="hero-section" class="hero-section">
         <div class="left">
             <h1 class="hero-main-text">
                 I’m KARTIK GUPTA
-                <!-- /*see logo*/ -->
             </h1>
             <p class="hero-sub-text">A recent graduate ready to kickstart my journey in tech with hands-on work and
                 continuous improvement.</p>
@@ -35,6 +35,7 @@
             <h1>#HELLO</h1>
         </div>
     </section>
+
     <section id="education-section" class="education-section">
         <div class="qualification">
             <img src="images/hpu.jpeg" alt="HIMACHAL PRADESH UNIVERSITY LOGO">
@@ -46,11 +47,9 @@
                     <h3><strong>Master of Computer Application</strong></h3>
                     <h6>-Jun,2025</h6>
                 </div>
-                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, harum? Corporis
-                    nulla voluptas suscipit
-                    veritatis illo. Sit, ratione ea! Est, sequi saepe! Dolorem rem totam vitae dolores perferendis
-                    repudiandae
-                    praesentium.
+                <p class="description">Pursuing an advanced postgraduate program focused on software development, data
+                    structures, algorithms, and system design. Gaining hands-on experience through academic projects and
+                    coursework in modern programming languages and technologies.
                 </p>
             </div>
         </div>
@@ -65,19 +64,45 @@
                     <h3><strong>Bachelor of Computer Application</strong></h3>
                     <h6>-Apr,2023</h6>
                 </Div>
-                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, harum? Corporis
-                    nulla voluptas suscipit
-                    veritatis illo. Sit, ratione ea! Est, sequi saepe! Dolorem rem totam vitae dolores perferendis
-                    repudiandae
-                    praesentium.
+                <p class="description">Completed a comprehensive undergraduate degree in computer applications. Built a
+                    strong foundation in programming (C, C++, Python), database management, and web technologies.
+                    Developed problem-solving and analytical thinking through various assignments and mini-projects.
                 </p>
             </div>
         </div>
     </section>
+
     <section id="projects-section">
         <h2>Projects</h2>
-        <p>Coming soon! Check back later for detailed project descriptions.</p>
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Student Record Management System</h3>
+                <p>A desktop application to manage student records including add, update, delete, and search operations.
+                </p>
+                <p><strong>Tech Used:</strong> Java, MySQL</p>
+                <a href="#">View Code</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This is my personal portfolio website built using HTML, CSS, and JavaScript. It’s fully responsive
+                    and mobile-friendly.</p>
+                <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+                <a href="#">View Live</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Weather App (API)</h3>
+                <p>A simple app that fetches real-time weather data using the OpenWeatherMap API based on user input
+                    location.</p>
+                <p><strong>Tech Used:</strong> JavaScript, API, HTML/CSS</p>
+                <a href="#">GitHub Repo</a>
+            </div>
+
+        </div>
     </section>
+
     <section id="skills-section">
         <h2>Skills</h2>
         <div class="skills-grid">
@@ -109,8 +134,24 @@
     </section>
 
     <section id="contact-section">
-        <h2>Contact</h2>
+        <div>
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div>
+            <h2>Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54674.136272714706!2d77.11782151709713!3d31.078212851082263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390578e3e35d6e67%3A0x1f7e7ff6ff9f54b7!2sShimla%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1749109915671!5m2!1sen!2sin"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
     </section>
+
     <footer>
         <ul class="links">
             <li><a href="https://linkedin.com/in/kartik-gupta-268934267" target="_blank">LinkedIn</a></li>
@@ -119,7 +160,6 @@
         </ul>
         <p>&copy; 2025 Kartik Gupta. All rights reserved.</p>
     </footer>
-
 </body>
 
 </html>
